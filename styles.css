@@ -1,3 +1,7 @@
+.visually-hidden {
+  display: none;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,12 +15,12 @@ body {
 
 .header-circle {
   position: absolute;
-  top: -380px;
-  left: -380px;
+  top: -530px;
+  left: -492px;
   z-index: -1;
   border-radius: 50%;
-  width: 950px;
-  height: 950px;
+  width: 1045px;
+  height: 1029px;
   background-color: #92ab5a;
 }
 
@@ -69,4 +73,19 @@ section.banner {
 .banner-img {
   position: absolute;
   top: 0;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  width: 320px;
+}
+
+.h2-description {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 30px;
+  font-size: 14px;
 }
