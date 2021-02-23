@@ -1,4 +1,4 @@
-.visually-hidden {
+ .visually-hidden {
   display: none;
 }
 
@@ -91,9 +91,25 @@ h2 {
 }
 
 .button {
-  border-color: rgba(255, 255, 255, 0.7);
-  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 21px;
+  text-align: center;
+  line-height: 36px;
+  width: 170px;
+  height: 36px;
+  display: block;
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  background-color: white;
+  top: 15px;
 }
